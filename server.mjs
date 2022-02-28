@@ -1,12 +1,14 @@
 import express from "express";
 import cors from "cors";
 import dialogflow from "@google-cloud/dialogflow";
+import gcHelper from "google-credentials-helper";
 
 const sessionClient = new dialogflow.SessionsClient(); // initialize sessionClient
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+gcHelper();
 
 const PORT = process.env.PORT || 7001;
 
