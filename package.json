@@ -1,0 +1,28 @@
+{
+  "name": "dialogflow-reactapp-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzakhan0153/Dialogflow-reactApp-Integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamzakhan0153/Dialogflow-reactApp-Integration/issues"
+  },
+  "homepage": "https://github.com/hamzakhan0153/Dialogflow-reactApp-Integration#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.6.0",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
